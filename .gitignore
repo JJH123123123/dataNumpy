@@ -5,9 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-
 # Distribution / packaging
 .Python
+
 build/
 develop-eggs/
 dist/
@@ -126,4 +126,8 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
-.pyre/
+.pyre/:
+
+# ignore
+.gitignore
+.DS_Store
