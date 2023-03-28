@@ -9,6 +9,8 @@ floordiv == //
 rdiv == / 
 
 iloc := index location Ex) df1.iloc[ [1,3,4], [4,5]], df1.iloc[ [1:], 3], df1.iloc[ :, 0] 
+
+
 loc := name location  EX) df2.loc['one':'three', ['year', 'points']], df2.loc[:, 'year'], df2.loc['one':'three', 'year':'points']
 
 df.drop does not delete the original data
